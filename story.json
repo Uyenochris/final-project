@@ -1,0 +1,46 @@
+{
+  "start": {
+    "text": " Hello {name}, do you want to stay home or go to the park?",
+    "image": "images/af5dfade-27cc-4302-ace7-95d43ed25b30_text.gif",
+    "choices": [
+      {"text": "Stay Home", "next": "stayHome"},
+      {"text": "Go to the Park", "next": "goPark"}
+    ]
+  },
+  "stayHome": {
+    "text": "At home, you get abducted by aliens, do you try to befriend them or escape?",
+    "image": "images/dame-tu-cosita-alien.gif",
+    "choices": [
+      {"text": "Befriend", "next": "befriendAliens"},
+      {"text": "Escape", "next": "escapeAliens"}
+    ]
+  },
+  "befriendAliens": {
+    "text": "Aliens think you are annoying and dissect you. You are now dead. The end.",
+    "image": "images/marlon-wayans.gif",
+    "choices": []
+  },
+  "escapeAliens": {
+    "text": "Aliens think you are brave for trying to escape and you become the ruler of their planet. The end.",
+    "image": "images/2fc6dcb9-7dba-4f62-ae8a-5ddb6009d41c_text.gif",
+    "choices": []
+  },
+  "goPark": {
+    "text": "At the park you find a million dollars on the ground, Do you save it or spend it?",
+    "image": "images/200.gif",
+    "choices": [
+      {"text": "Save", "next": "saveMoney"},
+      {"text": "Spend", "next": "spendMoney"}
+    ]
+  },
+  "saveMoney": {
+    "text": "Your bank gets robbed, You lose all your money, The end.",
+    "image": "images/giphy (1).gif",
+    "choices": []
+  },
+  "spendMoney": {
+    "text": "At the store you find a Billion dollars on the ground, You are now extremely rich you can now swim in your money like it's a pool of water",
+    "image": "images/giphy.gif",
+    "choices": []
+  }
+}
